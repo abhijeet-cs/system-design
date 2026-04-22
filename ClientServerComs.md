@@ -15,7 +15,7 @@ flowchart TD
 ## 📢 SSE
 1. Persistent connection maintained  
 2. Server can send data to client one way  
-3. Reconnect handling If disconnected can lead to thundering herd if all clients tries to reconnect at same time. Use jitter, exponential backoff  
+3. Reconnect handling : If disconnected can lead to thundering herd if all clients tries to reconnect at same time. Use jitter, exponential backoff  .
 4. Horizontal scaling. Need LB and sticky session since  
 
 ## 🔌 WebSockets
